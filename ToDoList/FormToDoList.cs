@@ -4,8 +4,8 @@ using System.Windows.Forms;
 
 namespace ToDoList
 {
-    // добавить изменения задания
-    // персонализация
+    // добавить изменения задания -
+    // персонализация +
     public partial class FormToDoList : Form
     {
         public FormToDoList()
@@ -84,6 +84,16 @@ namespace ToDoList
                 button1.ForeColor = Color.Black;
 
             }
+        }
+
+        public void UpdateForm()
+        {
+            FormToDoList.ActiveForm.Refresh();
+        }
+
+        private void learning1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

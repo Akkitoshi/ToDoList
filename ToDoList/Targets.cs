@@ -23,6 +23,10 @@ namespace ToDoList
             poss = (item.Top + item.Height + 10);
         }
 
+        public void delItem(string text, string date)
+        {
+            panel2.Controls.RemoveByKey(text);
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             string tarName = textBox.Text;

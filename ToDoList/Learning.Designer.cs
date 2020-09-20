@@ -34,6 +34,9 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox = new System.Windows.Forms.TextBox();
+            this.buttonSelectEdit = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -76,7 +79,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(608, 359);
+            this.button3.Location = new System.Drawing.Point(599, 354);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(39, 35);
             this.button3.TabIndex = 16;
@@ -96,10 +99,61 @@
             this.textBox.TabIndex = 15;
             this.textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_KeyPress);
             // 
+            // buttonSelectEdit
+            // 
+            this.buttonSelectEdit.AutoEllipsis = true;
+            this.buttonSelectEdit.BackColor = System.Drawing.Color.Teal;
+            this.buttonSelectEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSelectEdit.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.buttonSelectEdit.ForeColor = System.Drawing.Color.White;
+            this.buttonSelectEdit.Location = new System.Drawing.Point(24, 393);
+            this.buttonSelectEdit.Name = "buttonSelectEdit";
+            this.buttonSelectEdit.Size = new System.Drawing.Size(208, 24);
+            this.buttonSelectEdit.TabIndex = 17;
+            this.buttonSelectEdit.Text = "Select item";
+            this.buttonSelectEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.buttonSelectEdit.UseVisualStyleBackColor = false;
+            this.buttonSelectEdit.Click += new System.EventHandler(this.buttonSelectEdit_Click);
+            // 
+            // buttonEdit
+            // 
+            this.buttonEdit.AutoEllipsis = true;
+            this.buttonEdit.BackColor = System.Drawing.Color.Teal;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonEdit.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.buttonEdit.ForeColor = System.Drawing.Color.White;
+            this.buttonEdit.Location = new System.Drawing.Point(238, 393);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(197, 24);
+            this.buttonEdit.TabIndex = 18;
+            this.buttonEdit.Text = "Edit item";
+            this.buttonEdit.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.buttonEdit.UseVisualStyleBackColor = false;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
+            // 
+            // button1
+            // 
+            this.button1.AutoEllipsis = true;
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Century Gothic", 8F);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(441, 393);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(197, 24);
+            this.button1.TabIndex = 19;
+            this.button1.Text = "Update list";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.buttonUpd_Click);
+            // 
             // Learning
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonEdit);
+            this.Controls.Add(this.buttonSelectEdit);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.flowLayoutPanel1);
@@ -121,5 +175,8 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox textBox;
+        private System.Windows.Forms.Button buttonSelectEdit;
+        private System.Windows.Forms.Button buttonEdit;
+        private System.Windows.Forms.Button button1;
     }
 }

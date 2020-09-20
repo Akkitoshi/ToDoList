@@ -43,6 +43,7 @@
             this.lbl.Size = new System.Drawing.Size(32, 17);
             this.lbl.TabIndex = 0;
             this.lbl.Text = "Text";
+            this.lbl.Click += new System.EventHandler(this.lbl_Click);
             // 
             // button1
             // 
@@ -78,6 +79,7 @@
             this.Controls.Add(this.lblDate);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lbl);
+            this.DoubleBuffered = true;
             this.Name = "ToDoItem";
             this.Size = new System.Drawing.Size(604, 47);
             this.ResumeLayout(false);
@@ -86,9 +88,8 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label lblDate;
+        public System.Windows.Forms.Label lbl;
     }
 }

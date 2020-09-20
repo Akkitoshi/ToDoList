@@ -13,7 +13,9 @@ namespace ToDoList
             getTargets();
         }
 
-        int poss = 10;
+        public static int poss = 10;
+        public static string targetIdEdit;
+        public static string targetCreateEdit;
 
         public void addItem(string text, string date)
         {
@@ -93,5 +95,17 @@ namespace ToDoList
                 e.Handled = true;
             }
         }
+        private void buttonUpd_Click(object sender, EventArgs e)
+        {
+            panel2.Controls.Clear();
+            poss = 10;
+            getTargets();
+        }
+
+        public void buttonEdit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
+

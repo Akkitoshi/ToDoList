@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="buttonMinimize.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 45</value>
-  </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 94</value>
   </data>
@@ -540,8 +537,8 @@
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 23</value>
   </data>
-  <data name="&gt;&gt;targets1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;targets1.Name" xml:space="preserve">
+    <value>targets1</value>
   </data>
   <data name="buttonIdeas.Text" xml:space="preserve">
     <value>💡 Ideas</value>
@@ -564,17 +561,14 @@
   <data name="&gt;&gt;Date.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;targets1.Name" xml:space="preserve">
-    <value>targets1</value>
+  <data name="buttonMinimize.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 45</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;buttonLearning.Name" xml:space="preserve">
-    <value>buttonLearning</value>
   </data>
   <data name="targets1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -721,9 +715,6 @@
   </data>
   <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
     <value>pictureBox2</value>
-  </data>
-  <data name="&gt;&gt;buttonIdeas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonTargets.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3584,9 +3575,6 @@
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
-  <data name="books1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>650, 420</value>
-  </data>
   <data name="&gt;&gt;targets1.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
@@ -3635,8 +3623,8 @@
   <data name="buttonBooks.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="Date.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 33</value>
+  <data name="buttonExit.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
+    <value>ImageBeforeText</value>
   </data>
   <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3701,8 +3689,8 @@
   <data name="buttonBooks.Location" type="System.Drawing.Point, System.Drawing">
     <value>-1, 225</value>
   </data>
-  <data name="&gt;&gt;buttonExit.Name" xml:space="preserve">
-    <value>buttonExit</value>
+  <data name="learning1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 150</value>
   </data>
   <data name="&gt;&gt;Time.Parent" xml:space="preserve">
     <value>$this</value>
@@ -3715,6 +3703,9 @@
   </data>
   <data name="buttonTargets.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 78</value>
+  </data>
+  <data name="&gt;&gt;buttonExit.Name" xml:space="preserve">
+    <value>buttonExit</value>
   </data>
   <data name="&gt;&gt;buttonMinimize.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3791,14 +3782,14 @@
   <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
     <value>206, 133</value>
   </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;targets1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="Date.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="learning1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 150</value>
+  <data name="books1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>650, 420</value>
   </data>
   <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 3</value>
@@ -3811,6 +3802,9 @@
   </data>
   <data name="buttonIdeas.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
+  </data>
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="buttonIdeas.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -3839,17 +3833,20 @@
   <data name="&gt;&gt;learning1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="Time.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 33</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
     <value>ToDoList</value>
+  </data>
+  <data name="Date.Size" type="System.Drawing.Size, System.Drawing">
+    <value>240, 33</value>
   </data>
   <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="ideas1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;ideas1.Type" xml:space="preserve">
-    <value>ToDoList.Ideas, ToDoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="buttonExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -3884,8 +3881,11 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>860, 570</value>
   </data>
-  <data name="buttonLearning.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;buttonIdeas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 14.25pt, style=Bold</value>
@@ -3929,8 +3929,8 @@
   <data name="&gt;&gt;timer1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;targets1.Type" xml:space="preserve">
-    <value>ToDoList.Targets, ToDoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  <data name="&gt;&gt;ideas1.Type" xml:space="preserve">
+    <value>ToDoList.Ideas, ToDoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;button1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3938,8 +3938,8 @@
   <data name="&gt;&gt;buttonExit.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="buttonExit.TextImageRelation" type="System.Windows.Forms.TextImageRelation, System.Windows.Forms">
-    <value>ImageBeforeText</value>
+  <data name="&gt;&gt;buttonLearning.Name" xml:space="preserve">
+    <value>buttonLearning</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -3947,14 +3947,14 @@
   <data name="buttonBooks.Font" type="System.Drawing.Font, System.Drawing">
     <value>Century Gothic, 9.75pt</value>
   </data>
-  <data name="Time.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 33</value>
+  <data name="&gt;&gt;targets1.Type" xml:space="preserve">
+    <value>ToDoList.Targets, ToDoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 96</value>
   </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="buttonLearning.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
     <value>192, 570</value>
