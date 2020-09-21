@@ -58,8 +58,8 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.LightSeaGreen;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.buttonExit);
             this.panel1.Controls.Add(this.buttonMinimize);
             this.panel1.Controls.Add(this.buttonTargets);
@@ -71,8 +71,8 @@
             // 
             // buttonExit
             // 
-            resources.ApplyResources(this.buttonExit, "buttonExit");
             this.buttonExit.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonExit, "buttonExit");
             this.buttonExit.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonExit.ForeColor = System.Drawing.Color.White;
             this.buttonExit.Name = "buttonExit";
@@ -81,8 +81,8 @@
             // 
             // buttonMinimize
             // 
-            resources.ApplyResources(this.buttonMinimize, "buttonMinimize");
             this.buttonMinimize.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonMinimize, "buttonMinimize");
             this.buttonMinimize.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonMinimize.ForeColor = System.Drawing.Color.White;
             this.buttonMinimize.Name = "buttonMinimize";
@@ -91,8 +91,8 @@
             // 
             // buttonTargets
             // 
-            resources.ApplyResources(this.buttonTargets, "buttonTargets");
             this.buttonTargets.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonTargets, "buttonTargets");
             this.buttonTargets.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonTargets.ForeColor = System.Drawing.Color.White;
             this.buttonTargets.Name = "buttonTargets";
@@ -101,8 +101,8 @@
             // 
             // buttonIdeas
             // 
-            resources.ApplyResources(this.buttonIdeas, "buttonIdeas");
             this.buttonIdeas.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonIdeas, "buttonIdeas");
             this.buttonIdeas.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonIdeas.ForeColor = System.Drawing.Color.White;
             this.buttonIdeas.Name = "buttonIdeas";
@@ -111,8 +111,8 @@
             // 
             // buttonBooks
             // 
-            resources.ApplyResources(this.buttonBooks, "buttonBooks");
             this.buttonBooks.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonBooks, "buttonBooks");
             this.buttonBooks.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonBooks.ForeColor = System.Drawing.Color.White;
             this.buttonBooks.Name = "buttonBooks";
@@ -121,8 +121,8 @@
             // 
             // buttonLearning
             // 
-            resources.ApplyResources(this.buttonLearning, "buttonLearning");
             this.buttonLearning.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.buttonLearning, "buttonLearning");
             this.buttonLearning.FlatAppearance.BorderColor = System.Drawing.Color.Teal;
             this.buttonLearning.ForeColor = System.Drawing.Color.White;
             this.buttonLearning.Name = "buttonLearning";
@@ -131,9 +131,9 @@
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label1);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             // 
             // pictureBox1
@@ -157,7 +157,8 @@
             // Date
             // 
             resources.ApplyResources(this.Date, "Date");
-            this.Date.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Date.BackColor = System.Drawing.Color.Transparent;
+            this.Date.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Date.ForeColor = System.Drawing.Color.Teal;
             this.Date.Name = "Date";
             // 
@@ -173,14 +174,14 @@
             // 
             // panel3
             // 
-            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.BackColor = System.Drawing.Color.Teal;
+            resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
             // button1
             // 
-            resources.ApplyResources(this.button1, "button1");
             this.button1.BackColor = System.Drawing.Color.DimGray;
+            resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.Color.LightGray;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
@@ -210,7 +211,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Honeydew;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.Time);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel3);

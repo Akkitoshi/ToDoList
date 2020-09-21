@@ -67,7 +67,7 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(192, 373);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(192, 372);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(0, 0);
             this.flowLayoutPanel1.TabIndex = 3;
@@ -79,7 +79,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(599, 354);
+            this.button3.Location = new System.Drawing.Point(599, 353);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(39, 35);
             this.button3.TabIndex = 16;
@@ -92,7 +92,7 @@
             // 
             this.textBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox.Location = new System.Drawing.Point(24, 366);
+            this.textBox.Location = new System.Drawing.Point(24, 365);
             this.textBox.MaxLength = 140;
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(550, 23);
@@ -106,7 +106,7 @@
             this.buttonSelectEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelectEdit.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.buttonSelectEdit.ForeColor = System.Drawing.Color.White;
-            this.buttonSelectEdit.Location = new System.Drawing.Point(24, 393);
+            this.buttonSelectEdit.Location = new System.Drawing.Point(24, 392);
             this.buttonSelectEdit.Name = "buttonSelectEdit";
             this.buttonSelectEdit.Size = new System.Drawing.Size(208, 24);
             this.buttonSelectEdit.TabIndex = 17;
@@ -122,7 +122,7 @@
             this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEdit.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.buttonEdit.ForeColor = System.Drawing.Color.White;
-            this.buttonEdit.Location = new System.Drawing.Point(238, 393);
+            this.buttonEdit.Location = new System.Drawing.Point(238, 392);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(197, 24);
             this.buttonEdit.TabIndex = 18;
@@ -138,7 +138,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 8F);
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(441, 393);
+            this.button1.Location = new System.Drawing.Point(441, 392);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(197, 24);
             this.button1.TabIndex = 19;

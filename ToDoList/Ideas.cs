@@ -102,9 +102,69 @@ namespace ToDoList
             getTargets();
         }
 
+        public void buttonSelectEdit_Click(object sender, EventArgs e)
+        {
+            textBox.Text = ToDoItem.targetText;
+
+            string tarName = textBox.Text;
+            if (tarName == "")
+            {
+                MessageBox.Show("Oops, something is wrong! It seems you were trying to add empty task.");
+            }
+            else
+            {
+                try
+                {
+                    SqlConnection SQL = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Targets;Integrated Security=True;Pooling=False");
+                    using (SQL)
+                    {
+                        SQL.Open();
+                        SqlCommand command = new SqlCommand("SELECT TargetId, TargetCreateDate FROM TargetTab WHERE TargetText = '" + tarName + "'", SQL);
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                targetIdEdit = reader["TargetId"].ToString();
+                                targetCreateEdit = reader["TargetCreateDate"].ToString();
+                            }
+                        }
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Oops, something is wrong!");
+                }
+            }
+        }
+
         public void buttonEdit_Click(object sender, EventArgs e)
         {
-
+            string tarName = textBox.Text;
+            if (tarName == "")
+            {
+                MessageBox.Show("Oops, something is wrong! It seems you were trying to add empty task.");
+            }
+            else
+            {
+                SqlConnection SQL = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Targets;Integrated Security=True;Pooling=False");
+                using (SQL)
+                {
+                    SQL.Open();
+                    SqlCommand commandSec = new SqlCommand("UPDATE TargetTab SET TargetText = '" + tarName + "' WHERE TargetText = '" + ToDoItem.targetText + "'", SQL);
+                    commandSec.ExecuteNonQuery();
+                }
+                ToDoItem lblText = new ToDoItem();
+                ToDoItem.targetTextEdited = tarName;
+                textBox.Text = "";
+                targetIdEdit = "";
+                targetCreateEdit = "";
+                System.Media.SoundPlayer player = new
+                System.Media.SoundPlayer(@"C:\Users\anast\source\repos\ToDoList\ToDoList\Sounds\Add.wav");
+                player.Play();
+                panel2.Controls.Clear();
+                poss = 10;
+                getTargets();
+            }
         }
     }
 }

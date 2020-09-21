@@ -93,6 +93,9 @@
     <EmbeddedResource Include="FormToDoList.resx">
       <DependentUpon>FormToDoList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormToDoList.rn-BI.resx">
+      <DependentUpon>FormToDoList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormToDoList.ru.resx">
       <DependentUpon>FormToDoList.cs</DependentUpon>
     </EmbeddedResource>

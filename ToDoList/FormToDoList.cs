@@ -71,7 +71,7 @@ namespace ToDoList
         {
             if (BackColor == Color.LightGray)
             {
-                BackColor = Color.Honeydew;
+                BackColor = Color.White;
                 button1.BackColor = Color.DimGray;
                 button1.Text = "Dark mode";
                 button1.ForeColor = Color.LightGray;
