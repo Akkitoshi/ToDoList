@@ -146,12 +146,19 @@ namespace ToDoList
             }
             else
             {
-                SqlConnection SQL = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Targets;Integrated Security=True;Pooling=False");
-                using (SQL)
+                try
                 {
-                    SQL.Open();
-                    SqlCommand commandSec = new SqlCommand("UPDATE TargetTab SET TargetText = '" + tarName + "' WHERE TargetText = '" + ToDoItem.targetText + "'", SQL);
-                    commandSec.ExecuteNonQuery();
+                    SqlConnection SQL = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Targets;Integrated Security=True;Pooling=False");
+                    using (SQL)
+                    {
+                        SQL.Open();
+                        SqlCommand commandSec = new SqlCommand("UPDATE TargetTab SET TargetText = '" + tarName + "' WHERE TargetText = '" + ToDoItem.targetText + "'", SQL);
+                        commandSec.ExecuteNonQuery();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Oops, something is wrong! It seems you were trying to add a task that already exists.");
                 }
                 ToDoItem lblText = new ToDoItem();
                 ToDoItem.targetTextEdited = tarName;

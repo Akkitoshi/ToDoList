@@ -46,7 +46,6 @@ namespace ToDoList
 
         private string lbl_Text(object sender, EventArgs e)
         {
-
             ToDoItem ToDoitemForm = new ToDoItem();
             System.Media.SoundPlayer player = new
             System.Media.SoundPlayer(@"C:\Users\anast\source\repos\ToDoList\ToDoList\Sounds\Delete.wav");
