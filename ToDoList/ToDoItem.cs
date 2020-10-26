@@ -10,6 +10,7 @@ namespace ToDoList
     {
         public static string targetText = "";
         public static string targetTextEdited = "";
+
         public ToDoItem()
         {
             InitializeComponent();
@@ -56,8 +57,13 @@ namespace ToDoList
 
         private void lbl_Click(object sender, EventArgs e)
         {
-            ToDoItem Form2 = new ToDoItem();
+            lbl.ForeColor = Color.LightSalmon;
             targetText = lbl.Text;
+        }
+
+        private void lbl_MouseLeave(object sender, EventArgs e)
+        {
+            lbl.ForeColor = Color.White;
         }
     }
 }

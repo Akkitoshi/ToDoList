@@ -44,6 +44,7 @@
             this.lbl.TabIndex = 0;
             this.lbl.Text = "Text";
             this.lbl.Click += new System.EventHandler(this.lbl_Click);
+            this.lbl.MouseLeave += new System.EventHandler(this.lbl_MouseLeave);
             // 
             // button1
             // 

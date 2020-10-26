@@ -4,11 +4,15 @@ using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Drawing;
 
+
+
+/// <summary>
+/// Добавить обработку ошибок, при изменени на идентичное значение
+/// </summary>
 namespace ToDoList
 {
     public partial class Learning : UserControl
     {
-
         public Learning()
         {
             InitializeComponent();
